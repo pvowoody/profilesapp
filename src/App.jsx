@@ -8,6 +8,12 @@ function App() {
 
   return (
     <>
+      {/* Custom header with your name for the assignment screenshot */}
+      <div style={{ textAlign: "center", marginTop: "40px" }}>
+        <h1 style={{ fontSize: "2.5rem" }}>Task 5 Demo</h1>
+        <h2 style={{ color: "#646cff" }}>Created by Austin Woodruff</h2>
+      </div>
+
       <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
@@ -16,7 +22,9 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
+
       <h1>Vite + React</h1>
+
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
@@ -25,6 +33,7 @@ function App() {
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
       </div>
+
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
